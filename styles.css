@@ -113,6 +113,40 @@ a {
 }
 
 /* ===================================
+   CATEGORIES
+   =================================== */
+
+.categories{
+padding:40px 0;
+background:#111;
+}
+
+.category-buttons{
+display:flex;
+flex-wrap:wrap;
+gap:12px;
+justify-content:center;
+}
+
+.category-btn{
+padding:10px 20px;
+border:none;
+border-radius:25px;
+background:#222;
+color:white;
+font-weight:500;
+cursor:pointer;
+transition:0.2s;
+}
+
+.category-btn:hover{
+background:#ff8c00;
+}
+
+.category-btn.active{
+background:#ff8c00;
+}
+/* ===================================
    MENU SECTION
    =================================== */
 
