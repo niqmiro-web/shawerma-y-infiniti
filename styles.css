@@ -116,6 +116,13 @@ a {
    MENU SECTION
    =================================== */
 
+.menu-category{
+font-size:2rem;
+font-weight:700;
+margin:4rem 0 2rem 0;
+color:#fb923c;
+}
+
 .menu-section {
     padding: 5rem 1rem;
     background-color: #171717;
